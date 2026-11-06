@@ -1,6 +1,6 @@
 import { currentUser } from "@clerk/nextjs"
 import { getOrdersByEmail } from "@/sanity/sanity-utils"
-import { Order } from "@/types"
+import type { Order } from "@/types"
 
 export default async function Order() {
   const user = await currentUser()
