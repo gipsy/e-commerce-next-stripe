@@ -3,7 +3,7 @@
 import Image from "next/image"
 import { FaTrashAlt } from "react-icons/fa"
 import useCartStore from "../cartStore"
-import { CardElement, CartElement, useElements, useStripe } from "@stripe/react-stripe-js"
+import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js"
 import axios from "axios"
 import { createOrder } from "@/sanity/sanity-utils"
 import { useUser } from "@clerk/nextjs"
